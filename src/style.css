@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'inheria-sans';
+    src: url(./fonts/InriaSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'inheria-sans-bold';
+    src: url(./fonts/InriaSans-Bold.ttf);
+}
+
+h2{
+    font-family: 'inheria-sans-bold';
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ;
+    font-family: 'inheria-sans';
+}
+
+.title-1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.skipper{
+    text-align: right;
+}
+
+.email-form{
+    border-bottom: 1px solid #808080;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.forgot-pass{
+    text-align: right;
+    font-family: 'inheria-sans';
+    font-size: small;
+    margin-top: 10px;
+}
+
+.password-form{
+    border-bottom: 1px solid #808080;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.box{
+    height: 500px;
+    width: 350px;
+    border: 2px solid;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+}
