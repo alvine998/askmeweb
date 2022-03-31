@@ -131,3 +131,19 @@ a{
 }
 
 /* CSS Home */
+.box-search{
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid black;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-logo{
+    width: 200px;
+    height: 50px;
+}
