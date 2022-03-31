@@ -19,6 +19,8 @@ a{
     font-family: 'inheria-sans';
 }
 
+
+/* CSS Login & Register */
 .img-centering{
     margin-top: 50px;
 }
@@ -50,6 +52,10 @@ a{
     font-family: 'inheria-sans';
     font-size: small;
     margin-top: 10px;
+}
+
+.mt-10{
+    margin-top: 30px;
 }
 
 .password-form{
@@ -123,3 +129,5 @@ a{
 .box-button2 p:hover{
     color: white;
 }
+
+/* CSS Home */
