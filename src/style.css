@@ -132,7 +132,7 @@ a{
 
 /* CSS Home */
 .box-search{
-    width: 100%;
+    width: 90%;
     height: 40px;
     border-bottom: 1px solid black;
 }
@@ -146,4 +146,55 @@ a{
 .img-logo{
     width: 200px;
     height: 50px;
+}
+
+.btn-search{
+    border-radius: 10px; 
+    margin-top: -2px;
+}
+
+.pos-btn{
+    padding: 0px;
+}
+
+.circle-img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #808080;
+    border-radius: 50px;
+}
+
+.center2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-pos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.box-ask{
+    width: 70%;
+    height: 150px;
+    background-color: #808080;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.box-ask2{
+    width: 70%;
+    height: 150px;
+    border: 1px solid #808080;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.fixed-50{
+    margin-top: 100px;
 }
